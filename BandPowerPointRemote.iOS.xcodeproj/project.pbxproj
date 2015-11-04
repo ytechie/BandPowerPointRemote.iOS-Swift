@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A870FE61BEACE5500985CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A870FE51BEACE5500985CFE /* AppDelegate.swift */; };
+		0A870FE81BEACE5500985CFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A870FE71BEACE5500985CFE /* ViewController.swift */; };
+		0A870FEB1BEACE5500985CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A870FE91BEACE5500985CFE /* Main.storyboard */; };
+		0A870FED1BEACE5500985CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A870FEC1BEACE5500985CFE /* Assets.xcassets */; };
+		0A870FF01BEACE5500985CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A870FEE1BEACE5500985CFE /* LaunchScreen.storyboard */; };
+		0A870FFB1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A870FFA1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift */; };
+		0A8710061BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8710051BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A870FF71BEACE5500985CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A870FDA1BEACE5500985CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A870FE11BEACE5500985CFE;
+			remoteInfo = BandPowerPointRemote.iOS;
+		};
+		0A8710021BEACE5500985CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A870FDA1BEACE5500985CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A870FE11BEACE5500985CFE;
+			remoteInfo = BandPowerPointRemote.iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A870FE21BEACE5500985CFE /* BandPowerPointRemote.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandPowerPointRemote.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A870FE51BEACE5500985CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A870FE71BEACE5500985CFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A870FEA1BEACE5500985CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A870FEC1BEACE5500985CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A870FEF1BEACE5500985CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A870FF11BEACE5500985CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A870FF61BEACE5500985CFE /* BandPowerPointRemote.iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandPowerPointRemote.iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A870FFA1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandPowerPointRemote_iOSTests.swift; sourceTree = "<group>"; };
+		0A870FFC1BEACE5500985CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8710011BEACE5500985CFE /* BandPowerPointRemote.iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandPowerPointRemote.iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8710051BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandPowerPointRemote_iOSUITests.swift; sourceTree = "<group>"; };
+		0A8710071BEACE5500985CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A870FDF1BEACE5500985CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FF31BEACE5500985CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FFE1BEACE5500985CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A870FD91BEACE5500985CFE = {
+			isa = PBXGroup;
+			children = (
+				0A870FE41BEACE5500985CFE /* BandPowerPointRemote.iOS */,
+				0A870FF91BEACE5500985CFE /* BandPowerPointRemote.iOSTests */,
+				0A8710041BEACE5500985CFE /* BandPowerPointRemote.iOSUITests */,
+				0A870FE31BEACE5500985CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A870FE31BEACE5500985CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A870FE21BEACE5500985CFE /* BandPowerPointRemote.iOS.app */,
+				0A870FF61BEACE5500985CFE /* BandPowerPointRemote.iOSTests.xctest */,
+				0A8710011BEACE5500985CFE /* BandPowerPointRemote.iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A870FE41BEACE5500985CFE /* BandPowerPointRemote.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A870FE51BEACE5500985CFE /* AppDelegate.swift */,
+				0A870FE71BEACE5500985CFE /* ViewController.swift */,
+				0A870FE91BEACE5500985CFE /* Main.storyboard */,
+				0A870FEC1BEACE5500985CFE /* Assets.xcassets */,
+				0A870FEE1BEACE5500985CFE /* LaunchScreen.storyboard */,
+				0A870FF11BEACE5500985CFE /* Info.plist */,
+			);
+			path = BandPowerPointRemote.iOS;
+			sourceTree = "<group>";
+		};
+		0A870FF91BEACE5500985CFE /* BandPowerPointRemote.iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A870FFA1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift */,
+				0A870FFC1BEACE5500985CFE /* Info.plist */,
+			);
+			path = BandPowerPointRemote.iOSTests;
+			sourceTree = "<group>";
+		};
+		0A8710041BEACE5500985CFE /* BandPowerPointRemote.iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8710051BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift */,
+				0A8710071BEACE5500985CFE /* Info.plist */,
+			);
+			path = BandPowerPointRemote.iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A870FE11BEACE5500985CFE /* BandPowerPointRemote.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A87100A1BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOS" */;
+			buildPhases = (
+				0A870FDE1BEACE5500985CFE /* Sources */,
+				0A870FDF1BEACE5500985CFE /* Frameworks */,
+				0A870FE01BEACE5500985CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandPowerPointRemote.iOS;
+			productName = BandPowerPointRemote.iOS;
+			productReference = 0A870FE21BEACE5500985CFE /* BandPowerPointRemote.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A870FF51BEACE5500985CFE /* BandPowerPointRemote.iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A87100D1BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSTests" */;
+			buildPhases = (
+				0A870FF21BEACE5500985CFE /* Sources */,
+				0A870FF31BEACE5500985CFE /* Frameworks */,
+				0A870FF41BEACE5500985CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A870FF81BEACE5500985CFE /* PBXTargetDependency */,
+			);
+			name = BandPowerPointRemote.iOSTests;
+			productName = BandPowerPointRemote.iOSTests;
+			productReference = 0A870FF61BEACE5500985CFE /* BandPowerPointRemote.iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8710001BEACE5500985CFE /* BandPowerPointRemote.iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8710101BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSUITests" */;
+			buildPhases = (
+				0A870FFD1BEACE5500985CFE /* Sources */,
+				0A870FFE1BEACE5500985CFE /* Frameworks */,
+				0A870FFF1BEACE5500985CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8710031BEACE5500985CFE /* PBXTargetDependency */,
+			);
+			name = BandPowerPointRemote.iOSUITests;
+			productName = BandPowerPointRemote.iOSUITests;
+			productReference = 0A8710011BEACE5500985CFE /* BandPowerPointRemote.iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A870FDA1BEACE5500985CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jason Young";
+				TargetAttributes = {
+					0A870FE11BEACE5500985CFE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0A870FF51BEACE5500985CFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0A870FE11BEACE5500985CFE;
+					};
+					0A8710001BEACE5500985CFE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0A870FE11BEACE5500985CFE;
+					};
+				};
+			};
+			buildConfigurationList = 0A870FDD1BEACE5500985CFE /* Build configuration list for PBXProject "BandPowerPointRemote.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A870FD91BEACE5500985CFE;
+			productRefGroup = 0A870FE31BEACE5500985CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A870FE11BEACE5500985CFE /* BandPowerPointRemote.iOS */,
+				0A870FF51BEACE5500985CFE /* BandPowerPointRemote.iOSTests */,
+				0A8710001BEACE5500985CFE /* BandPowerPointRemote.iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A870FE01BEACE5500985CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A870FF01BEACE5500985CFE /* LaunchScreen.storyboard in Resources */,
+				0A870FED1BEACE5500985CFE /* Assets.xcassets in Resources */,
+				0A870FEB1BEACE5500985CFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FF41BEACE5500985CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FFF1BEACE5500985CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A870FDE1BEACE5500985CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A870FE81BEACE5500985CFE /* ViewController.swift in Sources */,
+				0A870FE61BEACE5500985CFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FF21BEACE5500985CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A870FFB1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A870FFD1BEACE5500985CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8710061BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A870FF81BEACE5500985CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A870FE11BEACE5500985CFE /* BandPowerPointRemote.iOS */;
+			targetProxy = 0A870FF71BEACE5500985CFE /* PBXContainerItemProxy */;
+		};
+		0A8710031BEACE5500985CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A870FE11BEACE5500985CFE /* BandPowerPointRemote.iOS */;
+			targetProxy = 0A8710021BEACE5500985CFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A870FE91BEACE5500985CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A870FEA1BEACE5500985CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A870FEE1BEACE5500985CFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A870FEF1BEACE5500985CFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8710081BEACE5500985CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A8710091BEACE5500985CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A87100B1BEACE5500985CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandPowerPointRemote.iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A87100C1BEACE5500985CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandPowerPointRemote.iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A87100E1BEACE5500985CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandPowerPointRemote.iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandPowerPointRemote.iOS.app/BandPowerPointRemote.iOS";
+			};
+			name = Debug;
+		};
+		0A87100F1BEACE5500985CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandPowerPointRemote.iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandPowerPointRemote.iOS.app/BandPowerPointRemote.iOS";
+			};
+			name = Release;
+		};
+		0A8710111BEACE5500985CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandPowerPointRemote.iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandPowerPointRemote.iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A8710121BEACE5500985CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandPowerPointRemote.iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ytech.BandPowerPointRemote-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandPowerPointRemote.iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A870FDD1BEACE5500985CFE /* Build configuration list for PBXProject "BandPowerPointRemote.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8710081BEACE5500985CFE /* Debug */,
+				0A8710091BEACE5500985CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A87100A1BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A87100B1BEACE5500985CFE /* Debug */,
+				0A87100C1BEACE5500985CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A87100D1BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A87100E1BEACE5500985CFE /* Debug */,
+				0A87100F1BEACE5500985CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A8710101BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8710111BEACE5500985CFE /* Debug */,
+				0A8710121BEACE5500985CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A870FDA1BEACE5500985CFE /* Project object */;
+}
