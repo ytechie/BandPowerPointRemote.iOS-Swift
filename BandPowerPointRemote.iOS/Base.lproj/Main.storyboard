@@ -1,25 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BandPowerPointRemote_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="T74-RM-TDs"/>
+                        <viewControllerLayoutGuide type="bottom" id="nvA-KT-HQl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="connectivity-diagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="wS9-FI-eg9">
+                                <rect key="frame" x="16" y="20" width="288" height="185"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="wW3-qf-GI1"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="utI-nO-wU2">
+                                <rect key="frame" x="42" y="233" width="235.5" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pairing Code:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDT-cF-OO4">
+                                        <rect key="frame" x="0.0" y="0.0" width="102.5" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Okf-eS-sk6">
+                                        <rect key="frame" x="109" y="0.0" width="60" height="30"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="u8M-rc-vD5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eof-83-Q71">
+                                        <rect key="frame" x="176" y="0.0" width="59" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Connect"/>
+                                        <connections>
+                                            <action selector="PairingCodeEntered_Connect:" destination="BYZ-38-t0r" eventType="touchDown" id="1bB-Vp-37z"/>
+                                            <action selector="connectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXC-0k-Ewu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xat-q8-kPZ">
+                                <rect key="frame" x="107" y="263" width="106" height="26"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Where do I get this?"/>
+                                <connections>
+                                    <segue destination="RZg-PH-6Gf" kind="presentation" id="jiU-Yv-CnW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xat-q8-kPZ" firstAttribute="top" secondItem="utI-nO-wU2" secondAttribute="bottom" id="06d-j9-eXG"/>
+                            <constraint firstItem="wS9-FI-eg9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8hL-8g-4R3"/>
+                            <constraint firstItem="utI-nO-wU2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DPc-UV-USg"/>
+                            <constraint firstItem="Xat-q8-kPZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IGZ-j1-ZGj"/>
+                            <constraint firstItem="wS9-FI-eg9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JZX-WK-YnH"/>
+                            <constraint firstItem="wS9-FI-eg9" firstAttribute="top" secondItem="T74-RM-TDs" secondAttribute="bottom" id="Nxg-EJ-YtV"/>
+                            <constraint firstItem="utI-nO-wU2" firstAttribute="top" secondItem="wS9-FI-eg9" secondAttribute="bottom" constant="28" id="X8W-4K-0Iq"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="PairingCodeInput" destination="Okf-eS-sk6" id="cWP-k1-dcQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="303" y="440"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="XUC-3q-Fze">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="RZg-PH-6Gf" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXm-mu-PjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="8b2-aY-U7q">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="726" y="440"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="connectivity-diagram.png" width="878" height="368"/>
+    </resources>
 </document>

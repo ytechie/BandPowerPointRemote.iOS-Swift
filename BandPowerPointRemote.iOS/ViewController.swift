@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBOutlet weak var PairingCodeInput: UITextField!
+    @IBAction func PairingCodeEntered_Connect(sender: AnyObject) {
+        PairingCodeInput.text = "9999";
+    }
 }
 

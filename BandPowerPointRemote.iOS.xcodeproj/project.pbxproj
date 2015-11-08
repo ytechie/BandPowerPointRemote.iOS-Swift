@@ -14,6 +14,7 @@
 		0A870FF01BEACE5500985CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A870FEE1BEACE5500985CFE /* LaunchScreen.storyboard */; };
 		0A870FFB1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A870FFA1BEACE5500985CFE /* BandPowerPointRemote_iOSTests.swift */; };
 		0A8710061BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8710051BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift */; };
+		0AAEEFBE1BED41E10093723F /* connectivity-diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEEFBD1BED41E10093723F /* connectivity-diagram.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A8710011BEACE5500985CFE /* BandPowerPointRemote.iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandPowerPointRemote.iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8710051BEACE5500985CFE /* BandPowerPointRemote_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandPowerPointRemote_iOSUITests.swift; sourceTree = "<group>"; };
 		0A8710071BEACE5500985CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AAEEFBD1BED41E10093723F /* connectivity-diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connectivity-diagram.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0A870FE41BEACE5500985CFE /* BandPowerPointRemote.iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0AAEEFBD1BED41E10093723F /* connectivity-diagram.png */,
 				0A870FE51BEACE5500985CFE /* AppDelegate.swift */,
 				0A870FE71BEACE5500985CFE /* ViewController.swift */,
 				0A870FE91BEACE5500985CFE /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAEEFBE1BED41E10093723F /* connectivity-diagram.png in Resources */,
 				0A870FF01BEACE5500985CFE /* LaunchScreen.storyboard in Resources */,
 				0A870FED1BEACE5500985CFE /* Assets.xcassets in Resources */,
 				0A870FEB1BEACE5500985CFE /* Main.storyboard in Resources */,
@@ -482,6 +486,7 @@
 				0A87100C1BEACE5500985CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A87100D1BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				0A87100F1BEACE5500985CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A8710101BEACE5500985CFE /* Build configuration list for PBXNativeTarget "BandPowerPointRemote.iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				0A8710121BEACE5500985CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
